@@ -1,3 +1,5 @@
+
+
 def using_push(arr, str)
   arr.push(str)
 end
@@ -23,19 +25,26 @@ def shift_with_args(arr)
 end
 
 def using_concat(arr1, arr2)
-  arr.concat(arr2)
+  arr1.concat(arr2)
 end
 
 def using_insert(arr, element)
-  arr.insert(element, 4)
+  arr.insert(4, element)
 end
 
 def using_uniq(arr)
-  arr.
-def
-
-def using_flatten(arr)
-  arr.flatten
+  arr.uniq 
 end
 
+def using_flatten(arr)
+  arr.flatten 
+end
+
+def using_delete(arr, str)
+  arr.delete(str)
+end
+
+def using_delete_at(arr, num)
+  arr.delete_at(num)
+end
 
